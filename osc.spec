@@ -1,14 +1,15 @@
 Summary:	openSUSE (build service) commander
 Summary(pl.UTF-8):	openSUSE commander - narzędzie do sterowania usługą budowania openSUSE
 Name:		osc
-Version:	0.99
+Version:	0.109
 Release:	0.1
 License:	GPL
 Group:		Applications
 # v=0.99; svn export https://forgesvn1.novell.com/svn/opensuse/trunk/buildservice/src/clientlib/python/osc osc-$v; tar czf osc-$v.tar.gz osc-$v
+# http://download.opensuse.org/repositories/openSUSE:/Tools/CentOS_5/src/osc-0.109-1.1.src.rpm
 Source0:	%{name}-%{version}.tar.gz
-# Source0-md5:	7bb8b2a25911bc1868a3c2cdf58da138
-URL:		https://forgesvn1.novell.com/svn/opensuse/trunk/buildservice/src/clientlib/python/osc/
+# Source0-md5:	99f1f7de69fb1f3b7e38c54183586eaf
+URL:		https://build.opensuse.org/project/show?project=openSUSE:Tools
 BuildRequires:	python-devel
 Requires:	python-elementtree
 Requires:	python-rpm
